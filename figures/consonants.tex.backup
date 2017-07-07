@@ -1,0 +1,24 @@
+\newcommand{\ipa}{\textipa}
+\newcommand{\BlankCell}{}
+
+\fittable{
+\begin{tabular}{|c | c|Z{1.3cm} | c|Z{1.3cm} | c|Z{1.3cm} | c|Z{1cm} | c|Z{1cm} |c|c|}
+\hline
+ & \multicolumn{2}{c|}{Bilabial}  & \multicolumn{2}{c|}{Dental} & \multicolumn{2}{c|}{Post-alveolar} & \multicolumn{2}{c|}{Velar} & \multicolumn{2}{c|}{Uvular} & \multirow{2}{1.5cm}{Ary-epiglottal} & \multirow{2}{*}{Glottal}\\
+\cline {1-11}
+ & plain & pharyn\-gealized & plain& pharyn\-gealized & plain & pharyn\-gealized &plain & labi\-al\-ized & plain& labi\-al\-ized &  & \\ 
+\hline 
+Plosive & b & & t d & tˤ dˤ & & & k g & kʷ gʷ & q & qʷ & & \multirow{3}{*}{\shadecell}\\
+\hline 
+Nasal & m & & n & (nˤ) & & & & & & & & \shadecell\\
+\hline 
+Tap & & & r & rˤ & & & \multicolumn{2}{|c|}{\shadecell} & & & & \shadecell\\
+\hline 
+Fricative & f & & s z & sˤ zˤ & ʃ ʒ & ʃˤ ʒˤ & & & χʁ & χʷʁʷ & ʜ ʕ & h\\
+\hline 
+Approximant & & & & & j & & & w & & & &\multirow{2}{*}{\shadecell}\\
+\hline 
+Lateral & & & l & lˤ & & & & & & & & \\
+\hline 
+\end{tabular}
+}
